@@ -1,0 +1,17 @@
+{
+  "servers": {
+    "dlt": {
+      "command": "/home/b-c-g/.bruin/uv",
+      "args": [
+        "run",
+        "--with",
+        "dlt[duckdb]",
+        "--with",
+        "dlt-mcp[search]",
+        "python",
+        "-m",
+        "dlt_mcp"
+      ]
+    }
+  }
+}
